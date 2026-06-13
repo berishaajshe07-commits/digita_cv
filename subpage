@@ -1,0 +1,6 @@
+import streamlt as st 
+
+def show():
+    st.tittle("My projects")
+
+    st.sunheader("Project 1:CV ")
