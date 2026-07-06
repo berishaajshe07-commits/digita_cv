@@ -58,10 +58,9 @@ if page == "Home":
 
 elif page == "About":
     st.title("About Me")
-    st.write("""
-    I am a computer science engineer student with a strong passion for IT
+    st.write("""I am a computer science engineer student with a strong passion for IT""")
     
-    Over one year, I am a student in UBT Prizren."
+   """ Over one year, I am a student in UBT Prizren."""
 
     # Show LinkedIn and Email only on the About page
     st.write("📫", EMAIL)
