@@ -36,7 +36,7 @@ def show_lessons():
             st.subheader("SQL - Structured Query Language")
 
             st.markdown("""
-### SQL (Structured Query Language)
+)
 
 SQL është gjuhë që përdoret për komunikim dhe menaxhim të databazave.
 
