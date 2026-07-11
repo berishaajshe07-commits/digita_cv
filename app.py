@@ -58,7 +58,10 @@ if page == "Home":
 
 elif page == "About":
     st.title("About Me")
-   st.write("""
+
+    st.write("""
     I am a computer science engineer student with a strong passion for IT.
-    Over one year, I am a student in UBT Prizren.
+    Over one year, I am a student at UBT Prizren.
     """)
+
+    st.write("📫", EMAIL)
