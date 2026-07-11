@@ -1,6 +1,6 @@
 import streamlit as st
 
-def show():
+defshow():
 st.title("CV")
 
 st.write("Name: Ajshe Berisha")
