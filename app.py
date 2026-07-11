@@ -26,8 +26,10 @@ profile_pic = Image.open(profile_pic_file)
 
 
 # Sidebar navigation
-page = st.sidebar.radio("Navigate", ["Home", "About", "Lessons"])
-
+page = st.sidebar.radio(
+    "Navigate",
+    ["Home", "About", "Lessons"]
+)
 
 if page == "Home":
 
