@@ -33,120 +33,56 @@ def show_lessons():
 
         if lecture == "Lecture 1":
 
-            st.subheader("SQL - Structured Query Language")
-
             st.markdown("""
-)
+## SQL - Structured Query Language
 
-SQL është gjuhë që përdoret për komunikim dhe menaxhim të databazave.
+SQL (Structured Query Language) është gjuhë që përdoret për komunikim me databaza.
 
-
-
-### Me SQL mundemi:
-
-- Kërkojmë të dhëna
-- Shkruajmë të dhëna
-- Përditësojmë të dhëna
-- Fshijmë të dhëna
+SQL nuk është gjuhë programimi, por përdoret për menaxhimin dhe punën me të dhëna në formë tabelare.
 
 
-### Data Analyst vs Data Engineer
+## Përdorimi i SQL
 
-**Data Analyst**
-- Përdor SQL për analizim dhe marrjen e të dhënave.
+Me SQL mundemi:
 
-**Data Engineer**
-- Krijon dhe menaxhon sistemet e të dhënave.
-- Bën update dhe pastrim të të dhënave.
-
-
-### CRUD Operations
-
-- Create
-- Read
-- Update
-- Delete
+- Të kërkojmë të dhëna nga databaza
+- Të shkruajmë të dhëna të reja
+- Të përditësojmë të dhënat ekzistuese
+- Të fshijmë të dhëna
 
 
-### Server, Database dhe Schema
+## Komandat bazë të SQL
 
-**Server**
-- Infrastrukturë fizike ose virtuale ku ruhen databazat.
-
-**Database**
-- Hapësirë virtuale brenda serverit ku ruhen të dhënat.
-
-**Schema**
-- Organizim logjik brenda databazës.
+- SELECT → merr të dhëna
+- INSERT → shton të dhëna
+- UPDATE → ndryshon të dhëna
+- DELETE → fshin të dhëna
 
 
-### Tables dhe Views
+## Tables dhe Views
 
-**Tables**
-- Ruajnë të dhëna që qëndrojnë në databazë.
+Tables:
+- Ruajnë të dhëna në databazë.
 
-**Views**
+Views:
 - Janë rezultate të bazuara në query.
 
 
-### Relationships në SQL
+## Relationships në SQL
 
 - One to One
 - One to Many
 - Many to Many
 
 
-### Keys
+## Primary Key dhe Foreign Key
 
-**Primary Key**
-- Identifikues unik për rekordet.
+Primary Key:
+- Identifikues unik për çdo rekord.
 
-**Foreign Key**
-- Lidh tabela të ndryshme.
-
-
-### Star Schema vs Snowflake Schema
-
-**Star Schema**
-- Ka një tabelë qendrore dhe tabela të lidhura rreth saj.
-
-**Snowflake Schema**
-- Strukturë më e ndarë dhe e normalizuar.
-
-
-### Data Warehouse
-
-- Të dhëna të organizuara për analiza.
-
-
-### Data Lake
-
-- Të dhëna të strukturuara dhe jo të strukturuara.
-
-
-### Data Mart
-
-- Të dhëna për një departament specifik.
-
-
-### DBMS vs RDBMS
-
-**DBMS**
-- Menaxhon databaza.
-
-**RDBMS**
-- Menaxhon të dhëna në formë tabelare me lidhje.
-
-
-### OLAP vs OLTP
-
-**OLAP**
-- Përdoret për analiza dhe Data Warehouse.
-
-**OLTP**
-- Përdoret për ruajtjen e transaksioneve.
-
-""")
+Foreign Key:
+- Lidh tabela të ndryshme mes vete.
+            """)
 
 
         elif lecture == "Lecture 2":
